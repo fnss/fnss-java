@@ -38,7 +38,7 @@ public class Event extends PropertyContainer implements Comparable<Event> {
 	/**
 	 * Set the time at which the event occurs
 	 * 
-	 * @param time
+	 * @param time the time of the event
 	 */
 	public void setTime(float time) {
 		this.time = time;
