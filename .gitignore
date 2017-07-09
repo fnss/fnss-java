@@ -1,0 +1,10 @@
+# Ignore all files starting with . (e.g. .classpath, .*project) but not .gitignore and .travis.yml
+.*
+!.gitignore
+!.travis.yml
+
+# Build files
+*.class
+bin
+doc
+dist
